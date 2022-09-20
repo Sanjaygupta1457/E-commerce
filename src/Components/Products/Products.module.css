@@ -1,0 +1,47 @@
+.section h1{
+    color: white;
+    text-align: center;
+    font-size: 20px bold;
+    padding: 20px;
+}
+.list{
+    display: flex;
+    justify-content: center;
+    width: 700px;
+    flex-wrap: wrap;
+    list-style-type: none;
+    align-items: center;
+}
+.item {
+    width: 300px;
+    margin: 20px;
+    align-items: center;
+    color: white;
+}
+.labeltitle{
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    color: black;
+    margin: 10px;
+}
+.labeltitle input{
+    width: 40px;
+    height: 20px;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+}
+.labeltitle button{
+    width: 100px;
+    height: 30px;
+    background-color: #10e1ba;
+    font-weight: bold;
+    font-size: 16px;
+}
+.img{
+    width: 300px;
+    height: 300px;
+    border-style: solid;
+    
+}
